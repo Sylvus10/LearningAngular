@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 import { products } from '../products';
 
 @Component({
@@ -15,8 +14,13 @@ export class ProductListComponent {
   }
 
   onNotify() {
+    /*
     window.alert(
       'Congrats you fucking poor little fuck. You will be notified when this Phone goes to Peasant-level prices for sad little shits like you.'
+    );
+    */
+    window.alert(
+      'We will notify you when this Phone goes on sale. Thank you for your interest in our product!'
     );
   }
 }

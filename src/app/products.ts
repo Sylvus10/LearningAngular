@@ -26,8 +26,8 @@ export const products = [
   },
   {
     id: 4,
-    name: 'Big Dick Phone',
-    price: 420,
+    name: 'Big Dick Phone (BDP)',
+    price: 1420.69,
     description: 'Big Dick Phone for Big Dick Gs.',
   },
 ];
