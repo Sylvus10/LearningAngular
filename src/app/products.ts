@@ -4,7 +4,8 @@ export interface Product {
   price: number;
   description: string;
 }
-
+// Probably the most basic way to define an interface and set values for a list of products, but we gotta start somewhere.
+// Most likely useful for keeping simple sets of variable data that we don't want to get via an API or JSON file.
 export const products = [
   {
     id: 1,

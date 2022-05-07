@@ -12,6 +12,9 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 
+// Central hub of this tutorial app. This is where we import and declare all the core components
+// More info on components here: https://angular.io/api/core/Component
+
 @NgModule({
   imports: [
     BrowserModule,
