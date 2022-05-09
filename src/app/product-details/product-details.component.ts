@@ -12,11 +12,6 @@ import { CartService } from '../cart.service';
 export class ProductDetailsComponent implements OnInit {
   product: Product | undefined;
 
-  constructor(
-    private route: ActivatedRoute,
-    private cartService: CartService
-  ) {}
-
   ngOnInit(): void {
     // Gets product info, in this case, the path for the URL based on the productId.
     // See https://angular.io/api/router/ActivatedRoute for more info.
@@ -32,4 +27,9 @@ export class ProductDetailsComponent implements OnInit {
     this.cartService.addToCart(product);
     window.alert('Your product has been added to the cart!');
   }
+
+  constructor(
+    private route: ActivatedRoute,
+    private cartService: CartService
+  ) {}
 }

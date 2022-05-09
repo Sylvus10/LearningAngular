@@ -18,6 +18,7 @@ export class CartService {
   getItems() {
     return this.items;
   }
+
   // Used to get the data from shipping.json via HTTP requests.
   // See https://angular.io/api/common/http/HttpClient for more info.
   getShippingPrices() {
@@ -26,6 +27,7 @@ export class CartService {
     );
   }
 
+  // Used to remove all data in the items array and then return the new empty value.
   clearCart() {
     this.items = [];
     return this.items;
